@@ -18,6 +18,6 @@ def join_nested_strings(src)
   
   end
   
-  p single_string
+  puts single_string
   
 end
