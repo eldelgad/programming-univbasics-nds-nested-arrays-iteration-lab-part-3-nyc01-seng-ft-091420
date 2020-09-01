@@ -7,7 +7,7 @@ def join_nested_strings(src)
   
   while row_index < src.count do
     
-    element_index = ""
+    element_index = 0
     
     while element_index != src[row_index].string do
       single_string << src[row_index][element_index] # pushes every element into an array
