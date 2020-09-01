@@ -9,7 +9,7 @@ def join_nested_strings(src)
     
     inner_count = 0
     
-    while inner_count < src[count].length do
+    while inner_count != src[count].length do
       single_string << src[count][inner_count] # pushes every element into an array
       inner_count += 1
     end
