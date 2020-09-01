@@ -5,12 +5,12 @@ def join_nested_strings(src)
   count = 0
   single_string = [] # new array
   
-  while count < array.length do
+  while count < src.length do
     
     inner_count = 0
     
-    while inner_count < array_of_arrays[count].length do
-      single_string << array_of_arrays[count][inner_count] # pushes every element into an array
+    while inner_count < src[count].length do
+      single_string << src[count][inner_count] # pushes every element into an array
       inner_count += 1
     end
     
